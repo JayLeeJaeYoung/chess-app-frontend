@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chess-app-frontend/static/css/main.2753631c.chunk.css",
+    "main.js": "/chess-app-frontend/static/js/main.771ccff5.chunk.js",
+    "main.js.map": "/chess-app-frontend/static/js/main.771ccff5.chunk.js.map",
+    "runtime-main.js": "/chess-app-frontend/static/js/runtime-main.8311594f.js",
+    "runtime-main.js.map": "/chess-app-frontend/static/js/runtime-main.8311594f.js.map",
+    "static/js/2.39a475da.chunk.js": "/chess-app-frontend/static/js/2.39a475da.chunk.js",
+    "static/js/2.39a475da.chunk.js.map": "/chess-app-frontend/static/js/2.39a475da.chunk.js.map",
+    "index.html": "/chess-app-frontend/index.html",
+    "static/css/main.2753631c.chunk.css.map": "/chess-app-frontend/static/css/main.2753631c.chunk.css.map",
+    "static/js/2.39a475da.chunk.js.LICENSE.txt": "/chess-app-frontend/static/js/2.39a475da.chunk.js.LICENSE.txt",
+    "static/media/circle-plus-solid.898d4d4d.svg": "/chess-app-frontend/static/media/circle-plus-solid.898d4d4d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8311594f.js",
+    "static/js/2.39a475da.chunk.js",
+    "static/css/main.2753631c.chunk.css",
+    "static/js/main.771ccff5.chunk.js"
+  ]
+}
