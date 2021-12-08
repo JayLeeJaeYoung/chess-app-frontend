@@ -1,0 +1,47 @@
+.manage-game__roomname {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.2rem 0 0 0;
+  color: rgb(98, 54, 134);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.manage-game__creator {
+  font-style: italic;
+  margin: 0.1rem 0 0.3rem 0;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: rgb(98, 54, 134);
+
+  display: flex;
+  justify-content: center;
+}
+
+.manage-game__participant {
+  font-weight: bold;
+  margin: 0rem 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.manage-game__wait {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.manage-game__button {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.manage-game__action__button {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}

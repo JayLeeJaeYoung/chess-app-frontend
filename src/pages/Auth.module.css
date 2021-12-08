@@ -1,0 +1,38 @@
+.auth-container {
+  background-color: rgba(209, 178, 235, 0.25);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+.title-container {
+  display: flex;
+  height: 30%;
+}
+
+.title-container h1 {
+  align-self: flex-end;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+  font-weight: 100;
+  font-style: italic;
+  border: 1px red solid;
+  padding: 1rem;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+}

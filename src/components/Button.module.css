@@ -1,0 +1,70 @@
+.button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 0.1rem solid rgb(98, 54, 134);
+  border-radius: 0.4rem;
+  background: rgb(98, 54, 134);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: rgb(136, 75, 187);
+  border-color: rgb(136, 75, 187);
+}
+
+.button--inverse {
+  background: transparent;
+  color: rgb(98, 54, 134);
+}
+
+.button--inverse:hover,
+.button--inverse:active {
+  color: white;
+  background: rgb(136, 75, 187);
+}
+
+.button--danger {
+  background: #ff0055;
+  border-color: #ff0055;
+}
+
+.button--danger:hover,
+.button--danger:active {
+  background: #ff4382;
+  border-color: #ff4382;
+}
+
+.button:disabled,
+.button:hover:disabled,
+.button:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button--small {
+  padding: 0.25rem 1rem;
+  font-size: 0.8rem;
+}
+
+.button--big {
+  font-size: 1.2rem;
+}
+
+.join-game__button {
+  width: 40%;
+  border-radius: 2rem;
+}
+
+.round-submit {
+  border-radius: 2rem;
+}

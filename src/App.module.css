@@ -1,0 +1,9 @@
+.app-container {
+  display: flex;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin-left: 8rem;
+}

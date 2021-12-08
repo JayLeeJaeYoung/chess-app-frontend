@@ -1,0 +1,74 @@
+.join-game-container h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join-game__roomname {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.2rem 0 0 0;
+  color: rgb(98, 54, 134);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-game__creator {
+  font-style: italic;
+  margin: 0.1rem 0 0.3rem 0;
+  font-size: smaller;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: rgb(98, 54, 134);
+
+  display: flex;
+  justify-content: center;
+}
+
+.join-game__button {
+  display: flex;
+  justify-content: center;
+}
+
+.games-list-container {
+  list-style: none;
+  margin: 0 0 7rem 0;
+  padding: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.participate-container {
+  display: flex;
+  justify-content: center;
+}
+.participate__waiting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.participate__waiting h4 {
+  width: 80%;
+}
+
+.participate__declined {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.participate__declined h4 {
+  color: red;
+  width: 80%;
+}
+.submit-cancel-button {
+  display: flex;
+  justify-content: space-between;
+}
