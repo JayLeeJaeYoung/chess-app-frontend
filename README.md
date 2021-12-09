@@ -9,6 +9,9 @@ Please contact the admin for access password
 ## Description
 
 The app requires an access password to log in (provided by admin).
+
+![image](https://user-images.githubusercontent.com/28867941/145312969-87131d79-8d85-40a3-827b-a010a53abc08.png)
+
 Once logged in, users can either create their own room or join an existing room.
 If the user creates a room, he/she waits until a participant requests to join the room at which point the creator has an option to either accept or decline the request.
 If the user wants to join an existing as a participant, the user can request to join the room, then waits until the creator lets the user in.
