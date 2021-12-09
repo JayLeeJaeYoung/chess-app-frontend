@@ -43,3 +43,9 @@ The game either ends by a checkmate or a stalemate. At each game's termination, 
 
 Built on MERN stack.
 react-router-dom to manage SPA, context to manage authentication, redux slice to manage game information, socket-io to handle "emit" events from the backend.
+
+![image](https://user-images.githubusercontent.com/28867941/145314032-465e24a5-114b-4b46-80fb-d394709c634d.png)
+
+![image](https://user-images.githubusercontent.com/28867941/145314108-f99cac63-9db9-47f1-85fe-a8d456c890b2.png)
+
+
