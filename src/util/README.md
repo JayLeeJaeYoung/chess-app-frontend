@@ -20,4 +20,5 @@ At any point, the players can cancel the game. All the standard chess rules appl
 ## Design
 
 Built on MERN stack.
-React-Router-Dom
+
+react-router-dom to manage SPA, socket.io-client to manage "emit" handling events, and make HTTP requests to connect to a backend REST API, context to manage authentication and redux slice to manage updated game information
