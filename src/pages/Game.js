@@ -523,13 +523,17 @@ const Game = () => {
       {!isLoading && info.color && <GameBoard opponentLeft={opponentLeft} />}
       {isLoading && <Spinner />}
       <Card styles="select-color">
-        {!isLoading && !info.color && auth.userId === info.creatorId && (
-          <PreGameCreator />
+        {!isLoading &&
+          info._id &&
+          !info.color &&
+          auth.userId === info.creatorId && <PreGameCreator />}
+        {!isLoading &&
+          info._id &&
+          !info.color &&
+          auth.userId !== info.creatorId && <PreGameParticipant />}
+        {error && info._id && (
+          <Error message={error} onClick={() => clearError()} />
         )}
-        {!isLoading && !info.color && auth.userId !== info.creatorId && (
-          <PreGameParticipant />
-        )}
-        {error && <Error message={error} onClick={() => clearError()} />}
       </Card>
     </div>
   );
